@@ -6,12 +6,8 @@
   </head>
   <body>
     <?php
-    function returnStringConcat() {
-      $text1 = 'Aller salut et merci bien pour le poisson';
-      $text2 = '<br/>H2G2 !';
-      return $text1.$text2;
-    }
-    echo returnStringConcat();
+    $month=['janvier','février','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','décembre'];
+    echo($month[5]);
     ?>
   </body>
 </html>
